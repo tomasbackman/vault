@@ -144,7 +144,7 @@ github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
 github.com/aws/aws-sdk-go/internal/sdkmath
 github.com/aws/aws-sdk-go/private/protocol/query/queryutil
 github.com/aws/aws-sdk-go/private/protocol/json/jsonutil
-# github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
+# github.com/beorn7/perks v1.0.0
 github.com/beorn7/perks/quantile
 # github.com/bgentry/speakeasy v0.1.0
 github.com/bgentry/speakeasy
@@ -275,15 +275,15 @@ github.com/google/go-github/github
 github.com/google/go-metrics-stackdriver
 # github.com/google/go-querystring v1.0.0
 github.com/google/go-querystring/query
-# github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
+# github.com/google/gofuzz v1.0.0
 github.com/google/gofuzz
 # github.com/google/uuid v1.0.0
 github.com/google/uuid
-# github.com/googleapis/gax-go/v2 v2.0.4
+# github.com/googleapis/gax-go/v2 v2.0.5
 github.com/googleapis/gax-go/v2
 # github.com/gorhill/cronexpr v0.0.0-20180427100037-88b0669f7d75
 github.com/gorhill/cronexpr
-# github.com/grpc-ecosystem/grpc-gateway v1.8.5
+# github.com/grpc-ecosystem/grpc-gateway v1.9.5
 github.com/grpc-ecosystem/grpc-gateway/runtime
 github.com/grpc-ecosystem/grpc-gateway/utilities
 github.com/grpc-ecosystem/grpc-gateway/internal
@@ -431,7 +431,7 @@ github.com/hashicorp/vault-plugin-secrets-alicloud
 github.com/hashicorp/vault-plugin-secrets-alicloud/clients
 # github.com/hashicorp/vault-plugin-secrets-azure v0.5.2
 github.com/hashicorp/vault-plugin-secrets-azure
-# github.com/hashicorp/vault-plugin-secrets-gcp v0.5.3-0.20191112195538-3c798536d157
+# github.com/hashicorp/vault-plugin-secrets-gcp v0.5.3-0.20191128235941-556b7c55d6db
 github.com/hashicorp/vault-plugin-secrets-gcp/plugin
 github.com/hashicorp/vault-plugin-secrets-gcp/plugin/iamutil
 github.com/hashicorp/vault-plugin-secrets-gcp/plugin/util
@@ -516,7 +516,7 @@ github.com/joyent/triton-go/authentication
 github.com/joyent/triton-go/errors
 github.com/joyent/triton-go/storage
 github.com/joyent/triton-go/client
-# github.com/json-iterator/go v1.1.6
+# github.com/json-iterator/go v1.1.7
 github.com/json-iterator/go
 # github.com/keybase/go-crypto v0.0.0-20190403132359-d65b6b94177f
 github.com/keybase/go-crypto/openpgp
@@ -639,21 +639,19 @@ github.com/pquerna/cachecontrol/cacheobject
 github.com/pquerna/otp
 github.com/pquerna/otp/totp
 github.com/pquerna/otp/hotp
-# github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829
+# github.com/prometheus/client_golang v1.0.0
 github.com/prometheus/client_golang/prometheus
 github.com/prometheus/client_golang/prometheus/push
 github.com/prometheus/client_golang/prometheus/internal
-# github.com/prometheus/client_model v0.0.0-20190115171406-56726106282f
+# github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90
 github.com/prometheus/client_model/go
-# github.com/prometheus/common v0.2.0
+# github.com/prometheus/common v0.4.1
 github.com/prometheus/common/expfmt
 github.com/prometheus/common/model
 github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg
-# github.com/prometheus/procfs v0.0.0-20190117184657-bf6a532e95b1
+# github.com/prometheus/procfs v0.0.2
 github.com/prometheus/procfs
-github.com/prometheus/procfs/nfs
-github.com/prometheus/procfs/xfs
-github.com/prometheus/procfs/internal/util
+github.com/prometheus/procfs/internal/fs
 # github.com/ryanuber/columnize v2.1.0+incompatible
 github.com/ryanuber/columnize
 # github.com/ryanuber/go-glob v1.0.0
@@ -679,8 +677,6 @@ github.com/stretchr/testify/assert
 github.com/stretchr/testify/require
 # github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926
 github.com/tv42/httpunix
-# github.com/ugorji/go/codec v0.0.0-20190204201341-e444a5086c43
-github.com/ugorji/go/codec
 # github.com/ulikunitz/xz v0.5.6
 github.com/ulikunitz/xz
 github.com/ulikunitz/xz/internal/xlog
@@ -688,9 +684,9 @@ github.com/ulikunitz/xz/lzma
 github.com/ulikunitz/xz/internal/hash
 # github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8
 github.com/xi2/xz
-# go.etcd.io/bbolt v1.3.2
+# go.etcd.io/bbolt v1.3.3
 go.etcd.io/bbolt
-# go.etcd.io/etcd v0.0.0-20190412021913-f29b1ada1971
+# go.etcd.io/etcd v0.0.0-20191023171146-3cf2f69b5738
 go.etcd.io/etcd/client
 go.etcd.io/etcd/clientv3
 go.etcd.io/etcd/clientv3/concurrency
@@ -703,14 +699,19 @@ go.etcd.io/etcd/auth/authpb
 go.etcd.io/etcd/clientv3/balancer
 go.etcd.io/etcd/clientv3/balancer/picker
 go.etcd.io/etcd/clientv3/balancer/resolver/endpoint
+go.etcd.io/etcd/clientv3/credentials
 go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes
 go.etcd.io/etcd/etcdserver/etcdserverpb
 go.etcd.io/etcd/mvcc/mvccpb
 go.etcd.io/etcd/pkg/logutil
 go.etcd.io/etcd/pkg/tlsutil
+go.etcd.io/etcd/clientv3/balancer/connectivity
 go.etcd.io/etcd/pkg/systemd
 go.etcd.io/etcd/raft
+go.etcd.io/etcd/raft/confchange
+go.etcd.io/etcd/raft/quorum
 go.etcd.io/etcd/raft/raftpb
+go.etcd.io/etcd/raft/tracker
 # go.opencensus.io v0.21.0
 go.opencensus.io/stats
 go.opencensus.io/stats/view
@@ -734,7 +735,7 @@ go.opencensus.io/trace/internal
 go.uber.org/atomic
 # go.uber.org/multierr v1.1.0
 go.uber.org/multierr
-# go.uber.org/zap v1.9.1
+# go.uber.org/zap v1.10.0
 go.uber.org/zap
 go.uber.org/zap/zapcore
 go.uber.org/zap/internal/bufferpool
@@ -772,7 +773,7 @@ golang.org/x/net/http2/hpack
 golang.org/x/net/trace
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/internal/timeseries
-# golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
+# golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 golang.org/x/oauth2
 golang.org/x/oauth2/internal
 golang.org/x/oauth2/google
@@ -781,7 +782,7 @@ golang.org/x/oauth2/jws
 golang.org/x/oauth2/clientcredentials
 # golang.org/x/sync v0.0.0-20190423024810-112230192c58
 golang.org/x/sync/semaphore
-# golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a
+# golang.org/x/sys v0.0.0-20190826190057-c7b8b68b1456
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/cpu
@@ -798,7 +799,7 @@ golang.org/x/text/internal/utf8internal
 golang.org/x/text/runes
 # golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 golang.org/x/time/rate
-# google.golang.org/api v0.5.0
+# google.golang.org/api v0.14.0
 google.golang.org/api/option
 google.golang.org/api/iam/v1
 google.golang.org/api/googleapi
@@ -808,10 +809,10 @@ google.golang.org/api/cloudresourcemanager/v1
 google.golang.org/api/compute/v1
 google.golang.org/api/internal
 google.golang.org/api/oauth2/v2
-google.golang.org/api/gensupport
+google.golang.org/api/internal/gensupport
 google.golang.org/api/transport/http
 google.golang.org/api/storage/v1
-google.golang.org/api/googleapi/internal/uritemplates
+google.golang.org/api/internal/third_party/uritemplates
 google.golang.org/api/transport/grpc
 google.golang.org/api/googleapi/transport
 google.golang.org/api/transport/http/internal/propagation
@@ -847,7 +848,7 @@ google.golang.org/genproto/googleapis/api/label
 google.golang.org/genproto/googleapis/rpc/code
 google.golang.org/genproto/googleapis/type/expr
 google.golang.org/genproto/googleapis/api/httpbody
-# google.golang.org/grpc v1.22.0
+# google.golang.org/grpc v1.23.1
 google.golang.org/grpc/grpclog
 google.golang.org/grpc/codes
 google.golang.org/grpc
@@ -880,10 +881,20 @@ google.golang.org/grpc/tap
 google.golang.org/grpc/health
 google.golang.org/grpc/health/grpc_health_v1
 google.golang.org/grpc/credentials/internal
+google.golang.org/grpc/balancer/grpclb
+google.golang.org/grpc/credentials/google
 google.golang.org/grpc/credentials/oauth
 google.golang.org/grpc/balancer/base
 google.golang.org/grpc/binarylog/grpc_binarylog_v1
 google.golang.org/grpc/internal/syscall
+google.golang.org/grpc/balancer/grpclb/grpc_lb_v1
+google.golang.org/grpc/credentials/alts
+google.golang.org/grpc/credentials/alts/internal
+google.golang.org/grpc/credentials/alts/internal/handshaker
+google.golang.org/grpc/credentials/alts/internal/handshaker/service
+google.golang.org/grpc/credentials/alts/internal/proto/grpc_gcp
+google.golang.org/grpc/credentials/alts/internal/authinfo
+google.golang.org/grpc/credentials/alts/internal/conn
 # gopkg.in/inf.v0 v0.9.1
 gopkg.in/inf.v0
 # gopkg.in/ini.v1 v1.42.0

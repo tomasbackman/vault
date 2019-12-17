@@ -81,7 +81,7 @@ require (
 	github.com/hashicorp/vault-plugin-secrets-ad v0.6.1-0.20191108162300-8f4121d78b9c
 	github.com/hashicorp/vault-plugin-secrets-alicloud v0.5.2-0.20190814210129-4d18bec92f56
 	github.com/hashicorp/vault-plugin-secrets-azure v0.5.2
-	github.com/hashicorp/vault-plugin-secrets-gcp v0.5.3-0.20191112195538-3c798536d157
+	github.com/hashicorp/vault-plugin-secrets-gcp v0.5.3-0.20191128235941-556b7c55d6db
 	github.com/hashicorp/vault-plugin-secrets-gcpkms v0.5.2-0.20190814210149-315cdbf5de6e
 	github.com/hashicorp/vault-plugin-secrets-kv v0.5.2-0.20191017213228-e8cf7060a4d0
 	github.com/hashicorp/vault/api v1.0.5-0.20191208020111-805a0bc9b460
@@ -115,8 +115,8 @@ require (
 	github.com/pkg/errors v0.8.1
 	github.com/posener/complete v1.2.1
 	github.com/pquerna/otp v1.2.1-0.20191009055518-468c2dd2b58d
-	github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829
-	github.com/prometheus/common v0.2.0
+	github.com/prometheus/client_golang v1.0.0
+	github.com/prometheus/common v0.4.1
 	github.com/ryanuber/columnize v2.1.0+incompatible
 	github.com/ryanuber/go-glob v1.0.0
 	github.com/samuel/go-zookeeper v0.0.0-20180130194729-c4fab1ac1bec
@@ -124,16 +124,19 @@ require (
 	github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4 // indirect
 	github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24 // indirect
 	github.com/stretchr/testify v1.4.0
+	github.com/ugorji/go/codec v0.0.0-20190204201341-e444a5086c43 // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
-	go.etcd.io/bbolt v1.3.2
-	go.etcd.io/etcd v0.0.0-20190412021913-f29b1ada1971
+	go.etcd.io/bbolt v1.3.3
+	go.etcd.io/etcd v0.0.0-20191023171146-3cf2f69b5738
 	go.uber.org/atomic v1.4.0
 	golang.org/x/crypto v0.0.0-20191106202628-ed6320f186d4
 	golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7
-	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
-	google.golang.org/api v0.5.0
+	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
+	google.golang.org/api v0.14.0
 	google.golang.org/genproto v0.0.0-20190801165951-fa694d86fc64
-	google.golang.org/grpc v1.22.0
+	google.golang.org/grpc v1.23.1
+	gopkg.in/airbrake/gobrake.v2 v2.0.9 // indirect
+	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
 	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
 	gopkg.in/ory-am/dockertest.v3 v3.3.4
 	gopkg.in/square/go-jose.v2 v2.3.1
